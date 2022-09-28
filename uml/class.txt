@@ -1,0 +1,19 @@
+@startuml
+class Request {
+- method
+- path
+- content
+- contentType
+- contentLength
+}
+
+class Response {
+- statusCode
+- date
+- contentType
+- content
+- message
+
+void errorProtocol()
+}
+@enduml
